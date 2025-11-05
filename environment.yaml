@@ -1,0 +1,15 @@
+# environment.yml
+name: smoke
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pandas           
+  - numpy            
+  - matplotlib       
+  - seaborn          
+  - statsmodels      # Used for probit models
+  - scipy            # Required dependency for statsmodels
+  - jupyter          # To run notebooks
+  - ipykernel        # For Jupyter kernel
